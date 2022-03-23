@@ -1,0 +1,35 @@
+.buttons > * {
+    display: inline-block;
+    color: white;
+    background-color: #0473db;
+    box-shadow: -1px 1px 3px 0px rgba(0, 0, 0, 0.75);
+    margin: 10px;
+    font-size: 80px;
+}
+
+.text {
+    font-size: 2rem;
+    margin: 1em;
+}
+
+.btn-pixels {
+    font-size: 80px;
+    padding: 40px;
+    margin: 20px;
+}
+
+.btn-rem {
+    font-size: 5em;
+    padding: 0.5em;
+    margin: 0.25em;
+}
+
+html {
+    font-size: 60%;
+}
+
+@media (min-width: 600px) {
+    html {
+        font-size: 100%;        
+    }
+}
